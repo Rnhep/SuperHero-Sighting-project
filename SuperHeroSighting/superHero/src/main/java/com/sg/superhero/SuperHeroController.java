@@ -5,7 +5,7 @@
  */
 package com.sg.superhero;
 
-import org.springframework.format.number.NumberStyleFormatter;
+
 import com.sg.superhero.dao.LocationDao;
 import com.sg.superhero.dao.OrganizationDao;
 import com.sg.superhero.dao.SightingDao;
@@ -15,24 +15,18 @@ import com.sg.superhero.model.Organization;
 import com.sg.superhero.model.Sighting;
 import com.sg.superhero.model.SuperPerson;
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
-import javax.swing.text.DateFormatter;
 import javax.validation.Valid;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 /**
  *

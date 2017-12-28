@@ -114,10 +114,8 @@
 
             </table>
         </div>
-     <div class="container" id="map" style="width: 250px; height: 250px;"></div>
         <button id="button" onclick="addlocation()"> Add location</button>   
         <div class="container col-md-12" id="toHide">
-
             <h2 id="loc">Add Location</h2>
             <form name="location" class="form-horizontal" 
                   role="form"  method="POST" 

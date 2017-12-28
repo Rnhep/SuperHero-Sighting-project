@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : ritheenhep
 */
 #table{  
-margin-right: 40px;
+margin-right:100px;
 height: 250px;
 width: 78%; 
 margin-top: -28px; 
@@ -27,7 +27,7 @@ border: solid 1px #f0f0f5 ;
     text-align: center;
 }
 #button{
-    margin-left: 542px;
+    margin-left: 300px;
     margin-top:4px;
 }
 body {

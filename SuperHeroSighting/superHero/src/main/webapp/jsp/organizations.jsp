@@ -85,7 +85,7 @@
                 </c:forEach>
             </table>
         </div>
-        <button id="button" onclick="addlocation()"> Add location</button>
+        <button id="button" onclick="addlocation()"> Add Organization</button>
         <div class="container col-md-9" id="toHide" >
             <h2 id="h1">Add Organization</h2>
             <form class="form-horizontal" 
